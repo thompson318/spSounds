@@ -1,0 +1,6 @@
+[run]
+omit = 
+        ./spsounds/_version.py
+        ./spsounds/__init__.py
+        ./spsounds/__main__.py
+        ./spsounds/ui/spsounds_command_line.py
