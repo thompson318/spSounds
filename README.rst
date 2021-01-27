@@ -23,18 +23,6 @@ spSounds
 
 Author: Stephen Thompson
 
-spSounds is part of the `scikit-surgery`_ software project, developed at the `Wellcome EPSRC Centre for Interventional and Surgical Sciences`_, part of `University College London (UCL)`_.
-
-spSounds supports Python 2.7 and Python 3.6.
-
-spSounds is currently a demo project, which will add/multiply two numbers. Example usage:
-
-::
-
-    python spsounds.py 5 8
-    python spsounds.py 3 6 --multiply
-
-Please explore the project structure, and implement your own functionality.
 
 Developing
 ----------
@@ -103,16 +91,9 @@ spSounds is released under the BSD-3 license. Please see the `license file`_ for
 Acknowledgements
 ----------------
 
-Supported by `Wellcome`_ and `EPSRC`_.
 
-
-.. _`Wellcome EPSRC Centre for Interventional and Surgical Sciences`: http://www.ucl.ac.uk/weiss
 .. _`source code repository`: https://github.com/thompson318/spSounds
 .. _`Documentation`: https://spSounds.readthedocs.io
-.. _`scikit-surgery`: https://github.com/UCL/scikit-surgery/wiki
-.. _`University College London (UCL)`: http://www.ucl.ac.uk/
-.. _`Wellcome`: https://wellcome.ac.uk/
-.. _`EPSRC`: https://www.epsrc.ac.uk/
 .. _`contributing guidelines`: https://github.com/thompson318/spSounds/blob/master/CONTRIBUTING.rst
 .. _`license file`: https://github.com/thompson318/spSounds/blob/master/LICENSE
 
