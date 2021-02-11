@@ -1,25 +1,10 @@
 # coding=utf-8
 
 """Hello world demo module"""
-from spsounds.algorithms import addition, multiplication
+from spsounds.midi.midi import playitloud
 
-def run_demo(input_x, input_y, multiply, verbose):
+def run_demo():
     """ Run the application """
+    playitloud()
 
-    if multiply:
-        result = multiplication.multiply_two_numbers(input_x, input_y)
-
-    else:
-        result = addition.add_two_numbers(input_x, input_y)
-
-
-    if verbose:
-        if multiply:
-            print("Calculating {} * {}".format(input_x, input_y))
-
-        else:
-            print("Calculating {} + {}".format(input_x, input_y))
-
-    print("Result is {}".format(result))
-
-    return result
+    return
