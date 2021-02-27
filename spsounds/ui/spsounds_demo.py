@@ -3,8 +3,7 @@
 """Hello world demo module"""
 from spsounds.midi.midi import playitloud
 
-def run_demo():
+def run_demo(args):
     """ Run the application """
+    print (args)
     playitloud()
-
-    return
